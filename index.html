@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet Örnekleri</title>
+</head>
+<body>
+    <h1>Emmet Örnekleri</h1>
+    
+    <!-- div>ul>li -->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- div+p+bq -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- div+div>p>span+em -->
+    <div></div>
+    <div>
+        <p></p><span></span><em></em></p>
+    </div>
+    
+
+    <!-- div+div>p>span+em^bq -->
+    <div></div>
+    <div>
+        <p>
+            <span></span>
+            <em></em>   
+        </p>
+        <blockquote></blockquote>
+    </div>
+    
+    .container>header+(nav>ul>li*3)+(#content>#left+#middle+#right)+footer
+    
+    div#header+div.page+div#footer.class1.class2.class3
+    <div id="header"></div>
+    <div class="page"></div>
+    <div id="footer" class="class1 class2 class3"></div>
+    
+    
+</body>
+</html>
